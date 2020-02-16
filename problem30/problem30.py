@@ -1,6 +1,7 @@
 mini = 2
 maxi = 999999
 power = 5
+total = 0
 while mini <= maxi:
 	
 	temp = mini
@@ -12,4 +13,7 @@ while mini <= maxi:
 		 temp = temp/10
 	if res == mini:
 		print(res)
+                total = total + res
 	mini = mini + 1
+
+print(total)
